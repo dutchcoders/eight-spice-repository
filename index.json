@@ -1,0 +1,11 @@
+[{
+    title: 'BitcoinWisdom',
+    description: 'Remove ads from BitcoinWisdom',
+    author: '',
+    version: '1.0',
+    pages: ['http://bitcoinwisdom.com/.*'],
+    resources: [
+        { type:'text/javascript', path: 'bitcoinwisdom/ext.js'}
+        { type:'text/css', url:'bitcoinwisdom/ext.css'}
+    ]
+}]
