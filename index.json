@@ -5,4 +5,11 @@
     "version": "1.0",
     "matches": ["http://bitcoinwisdom.com/.*"],
     "url": "https://api.github.com/repos/nl5887/animated-octo-spice-repository/contents/bitcoinwisdom?ref=master"
+}, {
+    "title": "Google Black",
+    "description": "Save energy with black google",
+    "author": "NL5887",
+    "version": "1.0",
+    "matches": ["http://*.google.*/.*"],
+    "url": "https://api.github.com/repos/nl5887/animated-octo-spice-repository/contents/google-black?ref=master"
 }]
