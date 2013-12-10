@@ -34,6 +34,9 @@ loadScript("https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js", f
 
     $(document).ready(function() {
         $('td.title a').each(function(i, elem) {
+            if ($(this).text()=='More') 
+                return;
+            
             $("<a href='https://twitter.com/share?url="+$(this).attr('href')+"&text="+$(this).text()+"' class='twitter-share-button' data-lang='en'>Tweet</a>").insertBefore($(this));
         });
         
