@@ -1,8 +1,8 @@
 [{
-    title: 'BitcoinWisdom',
-    description: 'Remove ads from BitcoinWisdom',
-    author: '',
-    version: '1.0',
-    matches: ['http://bitcoinwisdom.com/.*'],
-    url: 'https://api.github.com/repos/nl5887/animated-octo-spice-repository/contents/bitcoinwisdom?ref=master'
+    'title: 'BitcoinWisdom',
+    'description': 'Remove ads from BitcoinWisdom',
+    'author': '',
+    'version': '1.0',
+    'matches': ['http://bitcoinwisdom.com/.*'],
+    'url': 'https://api.github.com/repos/nl5887/animated-octo-spice-repository/contents/bitcoinwisdom?ref=master'
 }]
