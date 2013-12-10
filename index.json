@@ -2,6 +2,13 @@
     "title": "Animated Octo Spice",
     "extensions":
     [{
+        "title": "LinkedIn no-ads",
+        "description": "Remove ads from LinkedIn",
+        "author": "",
+        "version": "1.0",
+        "matches": ["http(s)?://www.linkedin.com/.*"],
+        "url": "https://api.github.com/repos/nl5887/animated-octo-spice-repository/contents/linkedin-noads"
+    }, {
         "title": "BitcoinWisdom",
         "description": "Remove ads from BitcoinWisdom",
         "author": "",
