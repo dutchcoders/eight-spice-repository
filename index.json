@@ -3,9 +3,6 @@
     description: 'Remove ads from BitcoinWisdom',
     author: '',
     version: '1.0',
-    pages: ['http://bitcoinwisdom.com/.*'],
-    resources: [
-        { type:'text/javascript', path: 'bitcoinwisdom/ext.js'}
-        { type:'text/css', url:'bitcoinwisdom/ext.css'}
-    ]
+    matches: ['http://bitcoinwisdom.com/.*'],
+    url: 'https://api.github.com/repos/nl5887/animated-octo-spice-repository/contents/bitcoinwisdom?ref=master'
 }]
