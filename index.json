@@ -10,6 +10,6 @@
     "description": "Save energy with black google",
     "author": "NL5887",
     "version": "1.0",
-    "matches": ["https?://*.google.*/.*"],
+    "matches": ["https?://.*\.google\..*/.*"],
     "url": "https://api.github.com/repos/nl5887/animated-octo-spice-repository/contents/google-black?ref=master"
 }]
