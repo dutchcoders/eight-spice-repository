@@ -2,6 +2,13 @@
     "title": "Animated Octo Spice",
     "extensions":
     [{
+        "title": "Gmail no-ads",
+        "description": "Remove ads from Gmail. I'm a paying gmail user, so don't want to see any ads.",
+        "author": "",
+        "version": "1.0",
+        "matches": ["http(s)?://mail.google.com/.*"],
+        "url": "https://api.github.com/repos/nl5887/animated-octo-spice-repository/contents/gmail-noads"
+    }, {
         "title": "LinkedIn no-ads",
         "description": "Remove ads from LinkedIn",
         "author": "",
