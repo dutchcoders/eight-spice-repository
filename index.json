@@ -16,11 +16,18 @@
         "matches": ["https?://.*google.*/.*"],
         "url": "https://api.github.com/repos/nl5887/animated-octo-spice-repository/contents/google-black"
     }, {
+        "title": "Reddit with Social",
+        "description": "This extender adds a twitter button to Reddit",
+        "author": "NL5887",
+        "version": "1.0",
+        "matches": ["http(s)?://www.reddit.com/.*?/.*?/"],
+        "url": "https://api.github.com/repos/nl5887/animated-octo-spice-repository/contents/social-reddit"
+    }, {
         "title": "Hacker News with Social",
         "description": "This extender adds a twitter button to news.ycombinator.com",
         "author": "NL5887",
         "version": "1.0",
-        "matches": ["https://news.ycombinator.com/news"],
+        "matches": ["https://news.ycombinator.com/(news)?"],
         "url": "https://api.github.com/repos/nl5887/animated-octo-spice-repository/contents/social-hackernews"
     }, {
         "title": "Kickass Torrents",
