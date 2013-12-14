@@ -37,7 +37,7 @@ loadScript("https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js", f
             if ($(this).text()=='More') 
                 return;
             
-            $("<a href='https://twitter.com/share?url="+$(this).attr('href')+"&text="+$(this).text()+"' class='twitter-share-button' data-lang='en'>Tweet</a>").insertBefore($(this));
+            $("<a style='float:right;' href='https://twitter.com/share?url="+$(this).attr('href')+"&text="+$(this).text()+"' class='twitter-share-button' data-lang='en'>Tweet</a>").insertBefore($(this));
         });
         
         !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");

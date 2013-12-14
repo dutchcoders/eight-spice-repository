@@ -44,6 +44,13 @@
         "matches": ["https://news.ycombinator.com/(news)?"],
         "url": "https://api.github.com/repos/nl5887/animated-octo-spice-repository/contents/social-hackernews"
     }, {
+        "title": "BeeLine Reader",
+        "description": "Save Time. Save Your Eyes. Read With BeeLine.",
+        "author": "@molokoloco",
+        "version": "1.0",
+        "matches": ["http(s)?://.*/.*"],
+        "url": "https://api.github.com/repos/nl5887/animated-octo-spice-repository/contents/beeline-reader"
+    }, {
         "title": "Kickass Torrents",
         "description": "Remove ads",
         "author": "NL5887",
