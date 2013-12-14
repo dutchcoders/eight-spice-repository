@@ -228,7 +228,7 @@
                     
                     $(document).ready(function(){
                     
-                        $('p').textGradient({color1:'rgb(30,30,30)', color2:'#09C'}); // Call our plugin :)
+                        $('body').textGradient({color1:'rgb(30,30,30)', color2:'#09C'}); // Call our plugin :)
                     
                     });
           });
