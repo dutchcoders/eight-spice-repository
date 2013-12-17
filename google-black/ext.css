@@ -25,3 +25,10 @@ input, .gssb_m {
 .gbqfif, .gbqfsf{
     color: #fffff1 !important;
 }
+.gssb_e{
+    border: 1px solid #141414 !important;
+}
+
+tr.gssb_i{
+    background: #252629 !important;
+}
