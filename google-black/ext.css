@@ -6,7 +6,7 @@ a{
     color :  #fffff1 !important;
 }
 
-input {
+input, .gssb_m {
     background-color: #141414 !important;
     color: #fffff1 !important;
 }
@@ -14,7 +14,7 @@ input {
     background-color: #141414 !important;
     color: #fffff1 !important;   
 }
-.gsri_a, .gsst_e, .gb_p,  .gb_Ba{
+.gsri_a, .gsst_e, .gb_p,  .gb_Ba, .gbqfba{
     -webkit-filter: invert(100%) !important;
 }
 .fbar, .gb_ib{
