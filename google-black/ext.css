@@ -1,3 +1,8 @@
 body {
-background: #000 !important;
+    background: #2b2b2b !important;
+}
+
+input {
+    background-color: #141414 !important;
+    color: #fffff1 !important;
 }
