@@ -17,3 +17,6 @@ input {
 .gsri_a, .gsst_e{
     -webkit-filter: invert(100%) !important;
 }
+.fbar{
+    background-color: #1e1e1e;
+}
