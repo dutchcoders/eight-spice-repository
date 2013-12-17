@@ -41,3 +41,10 @@ tr.gssb_i{
     background:transparent !important;
     border-color:transparent !important;
 }
+
+.hdtb-mn-o, .hdtb-mn-c {
+    -webkit-box-shadow: 0 2px 4px #141414 !important;
+    background: #141414 !important;
+    border: 1px solid #141414 !important;
+    box-shadow: 0 2px 4px #141414 !important;
+}
