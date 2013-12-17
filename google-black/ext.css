@@ -14,7 +14,7 @@ input, .gssb_m {#hdtb
     background-color: #141414 !important;
     color: #fffff1 !important;   
 }
-.gsri_a, .gsst_e, .gb_p,  .gb_Ba, .gbqfba{
+.gsri_a, .gsst_e, .gb_p,  .gb_Ba, .gbqfba, .ab_button{
     -webkit-filter: invert(100%) !important;
 }
 .fbar, .gb_ib{
@@ -49,6 +49,6 @@ tr.gssb_i{
     box-shadow: 0 2px 4px #141414 !important;
 }
 
-#hdtb_more_mn a:hover, .hdtbItm.hdtbSel:hover, .hdtbItm a:hover, #cdrlnk:hover {
+#hdtb_more_mn a:hover, .hdtbItm.hdtbSel:hover, .hdtbItm a:hover, #cdrlnk:hover, .ab_dropdownitem.selected {
     background: #252629 !important;
 }
