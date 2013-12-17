@@ -39,9 +39,10 @@ tr.gssb_i{
 
 #appbar{
     background: #141414 !important;
+
 }
 
-#hdtb, #hdtbSum{
+#hdtb, #hdtbSum, .appbar{
     background:transparent !important;
     border-color:transparent !important;
 }
