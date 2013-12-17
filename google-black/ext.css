@@ -52,3 +52,11 @@ tr.gssb_i{
 #hdtb_more_mn a:hover, .hdtbItm.hdtbSel:hover, .hdtbItm a:hover, #cdrlnk:hover, .ab_dropdownitem.selected {
     background: #252629 !important;
 }
+
+cite{
+    color: #2c7cd5 !important;
+}
+
+.st{
+   color:  #999;
+}
