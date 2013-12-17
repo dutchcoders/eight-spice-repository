@@ -6,7 +6,7 @@ a{
     color :  #fffff1 !important;
 }
 
-input, .gssb_m {
+input, .gssb_m {#hdtb
     background-color: #141414 !important;
     color: #fffff1 !important;
 }
@@ -35,4 +35,8 @@ tr.gssb_i{
 
 #appbar{
     background: #141414 !important;
+}
+
+#hdtb, #hdtbSum{
+    background:transparent !important;
 }
