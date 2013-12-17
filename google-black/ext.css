@@ -14,9 +14,11 @@ input {
     background-color: #141414 !important;
     color: #fffff1 !important;   
 }
-.gsri_a, .gsst_e{
+.gsri_a, .gsst_e, .gb_p,  .gb_Ba{
     -webkit-filter: invert(100%) !important;
 }
-.fbar{
-    background-color: #1e1e1e;
+.fbar, .gb_ib{
+    background-color: #1e1e1e !important;
+    border-top: 1px solid #1e1e1e !important;
+    border-bottom: 1px solid #1e1e1e !important;
 }
