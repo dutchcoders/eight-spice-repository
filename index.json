@@ -62,7 +62,7 @@
         "description": "Show more text on the frontpage",
         "author": "dhoogerwerf",
         "version": "1.0",
-        "matches": ["http://www.nu.nl"],
+        "matches": ["http(s)?://(www.)?nu.nl.*"],
         "url": "https://api.github.com/repos/dutchcoders/eight-spice-repository/contents/nu.nl"
     }]
 }
