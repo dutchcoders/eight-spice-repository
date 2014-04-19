@@ -1,3 +1,6 @@
 li{
     background: none !important;
 }
+li > p{
+    font-weight: 300;
+}
