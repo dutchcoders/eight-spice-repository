@@ -1,10 +1,8 @@
-li{
-    background: none !important;
-    white-space: normal;
-}
 li > p{
     font-weight: 300;
 }
-.custom-header-li{
+.list > ul > li{
     font-weight: bold;
+    background: none !important;
+    white-space: normal;
 }
