@@ -27,7 +27,7 @@
                 var href = $(value).attr('href');
                 $.get(href, function(data) {
                     console.log(href);
-                    $(value).after(data.find('div.article h2.summary').html());
+                    $(value).after($(data).find('div.article h2.summary').html());
                 });
             });
         });
