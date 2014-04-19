@@ -1,5 +1,6 @@
 li > p{
     font-weight: 300;
+    white-space: normal;
 }
 .list > ul > li{
     font-weight: bold;
