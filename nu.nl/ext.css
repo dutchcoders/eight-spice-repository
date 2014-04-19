@@ -4,3 +4,6 @@ li{
 li > p{
     font-weight: 300;
 }
+.custom-header-li{
+    font-weight: bold;
+}

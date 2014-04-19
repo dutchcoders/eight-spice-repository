@@ -26,6 +26,7 @@
             $('div.list ul li[data-vr-contentbox] a').each(function(index, value) {
                 var href = $(value).attr('href');
                 $.get(href, function(data) {
+                    $(value).addClass('custom-header-li');
                     $(value).after('<p>' + $(data).find('h2.summary').html() + '</p>');
                 });
             });
