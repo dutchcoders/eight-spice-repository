@@ -1,45 +1,56 @@
+(function() {
+    function loadScript(url, callback) {
+        var script = document.createElement("script")
+        script.type = "text/javascript";
 
-function addJQuery(callback) {
-    var script = document.createElement("script");
-    script.setAttribute("src", "//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js");
-    script.addEventListener('load', function() {
-        var script = document.createElement("script");
-        script.textContent = "window.jQ=jQuery.noConflict(true);(" + callback.toString() + ")();";
-        document.body.appendChild(script);
-    }, false);
-    document.body.appendChild(script);
-}
-function main() {
-    $(document).ready(function()
-    {
-        console.log('test tamper');
+        if (script.readyState) { //IE
+            script.onreadystatechange = function() {
+                if (script.readyState == "loaded" || script.readyState == "complete") {
+                    script.onreadystatechange = null;
+                    var j = jQuery.noConflict();
+                    callback(j);
+                }
+            };
+        } else { //Others
+            script.onload = function() {
+                var j = jQuery.noConflict();
+                callback(j);
+            };
+        }
 
-        $(document).on('click', '.v-post-tile', function() {
+        script.src = url;
+        document.getElementsByTagName("head")[0].appendChild(script);
+    }
+    loadScript("https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js", function($) {
+        $(document).ready(function()
+        {
+            console.log('test tamper');
 
-            console.log('opening article');
+            $(document).on('click', '.v-post-tile', function() {
 
-            setTimeout(function() {
-                console.log('trying to set refund hook');
-                $(document).on('mouseenter', '.v-close', function() {
-                    setTimeout(function() {
-                        console.log('trying to refund');
-                        $('.item-refund .lnk-refund')[1].click();
+                console.log('opening article');
+
+                setTimeout(function() {
+                    console.log('trying to set refund hook');
+                    $(document).on('mouseenter', '.v-close', function() {
                         setTimeout(function() {
-                            $('#other').click();
-                            $('textarea[name="other"]').val('eight-spice gratis blendle lezen plugin');
+                            console.log('trying to refund');
+                            $('.item-refund .lnk-refund')[1].click();
                             setTimeout(function() {
-                                $('.btn-refund').click();
+                                $('#other').click();
+                                $('textarea[name="other"]').val('eight-spice gratis blendle lezen plugin');
                                 setTimeout(function() {
-                                    $('.btn-okay').click();
-                                }, 200);
-                            }, 100);
-                        }, 500);
-                    }, 10);
-                });
-            }, 10000);
-        });
+                                    $('.btn-refund').click();
+                                    setTimeout(function() {
+                                        $('.btn-okay').click();
+                                    }, 200);
+                                }, 100);
+                            }, 500);
+                        }, 10);
+                    });
+                }, 10000);
+            });
 
+        });
     });
-}
-// load jQuery and execute the main function
-addJQuery(main);
+})();
