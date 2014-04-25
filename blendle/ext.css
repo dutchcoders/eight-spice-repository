@@ -1,0 +1,13 @@
+li > p{
+    font-weight: 300;
+    white-space: normal;
+    border-bottom: 1px solid #cdcdcd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+}
+.list > ul > li{
+    font-weight: bold;
+    background: none !important;
+    white-space: normal;
+}
