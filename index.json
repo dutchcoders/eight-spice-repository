@@ -64,12 +64,5 @@
         "version": "1.0",
         "matches": ["http(s)?://(www.)?nu.nl.*"],
         "url": "https://api.github.com/repos/dutchcoders/eight-spice-repository/contents/nu.nl"
-    }, {
-        "title": "blendle.nl",
-        "description": "Read article for free plugin",
-        "author": "dhoogerwerf",
-        "version": "1.0",
-        "matches": ["http(s)?://(beta.)?blendle.nl.*"],
-        "url": "https://api.github.com/repos/dutchcoders/eight-spice-repository/contents/blendle"
     }]
 }
